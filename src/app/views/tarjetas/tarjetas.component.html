@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+    <img [src]='datosTargeta.url_img' onerror="this.src='https://liquidador-cliente.firebaseapp.com/assets/img/imagen_no_disponible.png'" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{ datosTargeta.titulo_tarjeta }}</h5>
+        <p class="card-text">{{ datosTargeta.texto_tarjeta }}</p>
+        <a href="#" class="btn btn-primary" (click)="irATablas()">Go somewhere</a>
+    </div>
+</div>

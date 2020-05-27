@@ -1,0 +1,16 @@
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of cargaDatosTabla">
+            <th scope="row">{{ item.id }}</th>
+            <td scope="row">{{ item.nombre_persona }}</td>
+            <td scope="row">{{ item.usuario_alta }}</td>
+        </tr>
+    </tbody>
+</table>
